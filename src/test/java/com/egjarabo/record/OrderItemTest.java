@@ -1,7 +1,5 @@
-package com.egjarabo;
+package com.egjarabo.record;
 
-import com.egjarabo.record.OrderItem;
-import com.egjarabo.record.Product;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
