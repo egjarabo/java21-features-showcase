@@ -10,6 +10,9 @@ one specific feature.
 |---|---|
 | Records | `com.egjarabo.record` |
 | Sealed Classes | `com.egjarabo.sealed` |
+| Pattern Matching | `com.egjarabo.patterns` |
+| Text Blocks | `com.egjarabo.textblocks` | 
+| Virtual Threads | `com.egjarabo.virtualthreads` |
 
 ## Records
 Immutable data carriers for DTOs and domain events.
@@ -22,6 +25,24 @@ Modeling a complete order lifecycle with exhaustive
 type-safe switch expressions. Compiler enforces all states are handled.
 
 **Key classes:** `OrderStatus`, `OrderStatusService`
+
+## Pattern Matching
+Type-safe pattern matching with guards using `when` clauses.
+Combines sealed classes with switch expressions for expressive domain logic.
+
+**Key classes:** `OrderClassifier`
+
+## Text Blocks
+Clean multiline strings for JSON, SQL and HTML templates.
+No escape characters, no concatenations.
+
+**Key classes:** `ProductTemplates`
+
+## Virtual Threads
+Comparison between platform threads and Virtual Threads (Project Loom).
+Demonstrates how Virtual Threads scale with high-concurrency I/O workloads.
+
+**Key classes:** `ProductFetcher`
 
 ## How to run
 ```bash
